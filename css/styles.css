@@ -584,6 +584,12 @@ fill: #f4f4fd
   background: rgba(46, 47, 66, 0.40);
 }
 
+/* MODAL WINDOW */
+
 .modal{
-  
+width: 408px;
+min-height: 844px;
+padding: 74px 24px 24px 24px;
+border-radius: 4px;
+background-color: #FCFCFC;
 }
