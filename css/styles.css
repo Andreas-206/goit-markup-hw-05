@@ -640,12 +640,12 @@ stroke: #2E2F42;
 .rewiew-form {
 }
 .rewiew-form-wrapper {
-display: block;
 width: 360px;
 }
 .rewiew-form-label {
   color: #8E8F99;
   display: block;
+  margin-bottom: 4px;
   font-family: Roboto;
   font-size: 12px;
   font-style: normal;
@@ -654,6 +654,7 @@ width: 360px;
   letter-spacing: 0.04em;
 }
 .rewiew-form-input {
+width: 100%;
 margin-bottom: 8px;
 }
 .rewiew-form-icon {
