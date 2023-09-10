@@ -336,24 +336,35 @@
         <p class="title-modal">Leave your contacts and we will call you back</p>
         <form class="rewiew-form">
             <div class="rewiew-form-wrapper">
-                <label for="" class="rewiew-form-label">Name</label>
-                    <input type="text" class="rewiew-form-input">
+                <label for="user-name" class="rewiew-form-label">Name</label>
+                    <input type="text" class="rewiew-form-input" id="user-name" 
+                    name="user-name" 
+                    pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+" 
+                    title="Інокентій"
+                    required>
                         <svg class="rewiew-form-icon" width="24" height="24" aria-label="user icon">
                             <use href="./images/icons.svg#icon-person-black"></use>
                         </svg>
                     </input>
             </div>
             <div class="rewiew-form-wrapper">
-                <label for="" class="rewiew-form-label">Phone</label>
-                    <input type="number" class="rewiew-form-input">
+                <label for="user-phone" class="rewiew-form-label">Phone</label>
+                    <input type="tel" class="rewiew-form-input" id="user-phone" 
+                    name="user-phone" 
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}]"
+                    title="xxx-xxx-xx-xx"
+                    required>
                         <svg class="rewiew-form-icon" width="24" height="24" aria-label="phone icon">
                             <use href="./images/icons.svg#icon-phone-black"></use>
                         </svg>
                     </input>
             </div>
             <div class="rewiew-form-wrapper">
-                <label for="" class="rewiew-form-label">Email</label>
-                    <input type="email" class="rewiew-form-input">
+                <label for="useer-email" class="rewiew-form-label">Email</label>
+                    <input type="email" class="rewiew-form-input" id="user-email" 
+                    name="user-email" 
+                    pattern="[]"
+                    required>
                         <svg class="rewiew-form-icon" width="24" height="24" aria-label="email icon">
                             <use href="./images/icons.svg#icon-email-black"></use>
                         </svg>
