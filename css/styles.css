@@ -627,10 +627,60 @@ stroke: #2E2F42;
 
 .title-modal {
   color: #2E2F42;
+  width: 360px;
   text-align: center;
   font-size: 16px;
   font-style: normal;
+  margin-bottom: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.rewiew-form {
+}
+.rewiew-form-wrapper {
+display: block;
+width: 360px;
+}
+.rewiew-form-label {
+  color: #8E8F99;
+  display: block;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+}
+.rewiew-form-input {
+margin-bottom: 8px;
+}
+.rewiew-form-icon {
+}
+.rewiew-form-comment {
+}
+.form-comment-label {
+  color: #8E8F99;
+  display: block;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+}
+.textarea-comment {
+}
+.rewiew-checkbox-wrapper {
+}
+.rewiew-checkbox {
+}
+.checkbox-label {
+}
+.checkbox-span {
+}
+.privacy_police {
+}
+.rewiew-form-send {
 }
