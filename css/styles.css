@@ -761,11 +761,13 @@ background-color: #404BBF;
 
 
 .checkbox-label {
+  display: block;
   color: #8E8F99;
   font-size: 12px;
   font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.04em;
+  margin-bottom: 24px;
 }
 .checkbox-span {
 display: inline-flex;
@@ -776,6 +778,7 @@ height: 16px;
 border-radius: 4px;
 border: 1px solid rgba(46, 47, 66, 0.40);
 cursor: pointer;
+margin-right: 8px;
 }
 .privacy_police {
 }
@@ -784,7 +787,6 @@ display: inline-flex;
 width: 169px;
 height: 56px;
 padding: 16px 32px;
-align-items: flex-start;
 align-items: center;
 justify-content: center;
 border-radius: 4px;
