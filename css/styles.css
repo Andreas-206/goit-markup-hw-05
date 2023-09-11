@@ -674,6 +674,7 @@ stroke: #2E2F42;
 }
 .rewiew-form-wrapper {
 width: 360px;
+margin-bottom: 8px;
 }
 .rewiew-form-label {
   color: #8E8F99;
@@ -804,5 +805,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 
 .rewiew-form-send:hover,
 .rewiew-form-send:focus{
+fill: #ffffff;
 background-color: #404bbf;
 }
