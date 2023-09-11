@@ -783,10 +783,11 @@ margin-right: 8px;
 .privacy_police {
 }
 .rewiew-form-send {
-display: inline-flex;
+display: flex;
 width: 169px;
 height: 56px;
 padding: 16px 32px;
+margin: 0 auto;
 align-items: center;
 justify-content: center;
 border-radius: 4px;
