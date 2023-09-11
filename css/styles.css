@@ -774,4 +774,10 @@ cursor: pointer;
 .privacy_police {
 }
 .rewiew-form-send {
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px solid rgba(0, 0, 0, 0.1);
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+
 }
