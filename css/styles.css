@@ -678,7 +678,12 @@ left: 16px;
 transform: translateY(-50%);
 }
 
-.rewiew-form-icon:focus{
+.rewiew-form-input:focus{
+border-color: #4D5AE5;
+outline: transparent;
+}
+
+.rewiew-form-input:focus + .rewiew-form-icon{
 stroke: #4D5AE5;
 }
 
