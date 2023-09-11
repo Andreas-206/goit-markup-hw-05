@@ -724,14 +724,23 @@ outline: transparent;
 .rewiew-checkbox-wrapper {
 }
 .rewiew-checkbox {
-
 }
+
+.rewiew-checkbox:checked + .checkbox-label > .checkbox-span {
+background-color: #404BBF;
+}
+
+
 .checkbox-label {
 
 }
 .checkbox-span {
+display: inline-block;
 width: 16px;
 height: 16px;
+border-radius: 4px;
+border: 1px solid rgba(46, 47, 66, 0.40);
+cursor: pointer;
 }
 .privacy_police {
 }
