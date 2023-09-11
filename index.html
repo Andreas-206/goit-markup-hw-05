@@ -380,18 +380,26 @@
                 </div>
             </div>
             <div class="rewiew-form-comment">
+                <form class="textarea-form">
                 <label for="form-comment" class="form-comment-label">Comment</label>
                 <textarea class="textarea-comment" name="textarea-comment-modal" id="form-comment" 
                 placeholder="Text input"
                 ></textarea>
+            </form>
             </div>
             <div class="rewiew-checkbox-wrapper">
                 <label for="checkbox-btn" class="checkbox-label">
                 <input class="rewiew-checkbox" type="checkbox" 
                 name="check_privacy" value="checkbox_privacy" 
                 id="checkbox-btn" required>
-                <span class="checkbox-span"></span>
-                I accept the terms and conditions of the <a href="" class="privacy_police">Privacy Policy</a></label>
+                <span class="checkbox-span">
+                    <svg class="checkbox-icon-click" width="16" height="16"
+                    aria-label="checkbox-icon-click">
+                        <use href="./images/icons.svg#icon-Property-1click"></use>
+                    </svg>
+                </span>
+                I accept the terms and conditions of the <a href="" class="privacy_police">Privacy Policy</a>
+            </label>
             </div>
             <button class="rewiew-form-send" type="submit">Send</button>
         </form>

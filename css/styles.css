@@ -753,7 +753,7 @@ outline: transparent;
 .rewiew-checkbox {
 }
 
-.rewiew-checkbox:checked + .checkbox-label > .checkbox-span {
+.rewiew-checkbox:checked + .checkbox-label .checkbox-span{
 background-color: #404BBF;
 }
 
@@ -762,7 +762,9 @@ background-color: #404BBF;
 
 }
 .checkbox-span {
-display: inline-block;
+display: inline-flex;
+justify-content: center;
+align-items: center;
 width: 16px;
 height: 16px;
 border-radius: 4px;
