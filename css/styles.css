@@ -730,6 +730,8 @@ outline: transparent;
 
 }
 .checkbox-span {
+width: 16px;
+height: 16px;
 }
 .privacy_police {
 }
