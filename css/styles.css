@@ -712,6 +712,10 @@ resize: none;
 transition: border-color 250ms ease-out;
 }
 
+.textarea-comment::placeholder{
+color: rgba(46, 47, 66, 0.40);
+}
+
 .textarea-comment:focus{
 border-color: #4D5AE5;
 outline: transparent;
