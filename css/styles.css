@@ -785,7 +785,7 @@ fill: #f4f4fd;
 
 .rewiew-checkbox:checked + .checkbox-label .checkbox-span{
 background-color: #404BBF;
-fill: #ffffff;
+fill: #F4F4FD;
 border: none;
 }
 
