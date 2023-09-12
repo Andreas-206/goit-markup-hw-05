@@ -726,6 +726,7 @@ transition: stroke 250ms ease-out;
 }
 
 .rewiew-form-comment {
+margin-bottom: 16px;
 }
 .form-comment-label {
   color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
