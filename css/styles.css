@@ -731,14 +731,19 @@ border-color: #4D5AE5;
 outline: transparent;
 }
 
-.rewiew-form-input:focus .rewiew-form-icon{
+.rewiew-form-input:focus + svg {
+fill: #4D5AE5;
+}
+
+/* .rewiew-form-input:focus .rewiew-form-icon{ */
 fill: #4D5AE5;
 transition: stroke 250ms ease-out;
-}
+/* } */
 
 .rewiew-form-comment {
 margin-bottom: 16px;
 }
+
 .form-comment-label {
   color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
   display: block;
